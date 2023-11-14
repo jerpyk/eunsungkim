@@ -1,0 +1,514 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.8.0" title="Shotcut version 22.06.23" producer="main_bin">
+  <profile description="automatic" width="520" height="350" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="52" display_aspect_den="35" frame_rate_num="20" frame_rate_den="1" colorspace="601"/>
+  <chain id="chain0" out="00:00:02.100">
+    <property name="length">00:00:02.150</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">8462379a1865a4ea7631ced749b48fb9</property>
+    <property name="ignore_points">1</property>
+    <property name="creation_time">2022-11-30T01:02:34</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+  </chain>
+  <producer id="producer0" in="00:00:00.000" out="00:00:03.950">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/maxresdefault.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-11-30T01:02:29</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">90c4371b6b92f97145b8e1f4ee2f9299</property>
+    <property name="shotcut:caption">maxresdefault.jpg</property>
+    <property name="ignore_points">1</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:03.950">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/PZk6h9Us87vSgUo7DB5gZn.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-11-30T01:13:57</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">fd25af4804aecfbe8543fb0ae5252f76</property>
+    <property name="shotcut:caption">PZk6h9Us87vSgUo7DB5gZn.jpg</property>
+    <property name="ignore_points">1</property>
+  </producer>
+  <chain id="chain1" out="00:00:01.450">
+    <property name="length">00:00:01.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">adc17b9f8572ab8747d0d358530ef825</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+  </chain>
+  <chain id="chain2" out="00:02:03.350">
+    <property name="length">00:02:03.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/avengers.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b5c207a46dbbb623cec1d651df46e1ac</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:02.100"/>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:03.950"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:03.950"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:01.450"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:02:03.350"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:19.350">
+    <property name="length">00:00:19.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:19.350"/>
+  </playlist>
+  <chain id="chain3" out="00:00:02.100">
+    <property name="length">00:00:02.150</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">8462379a1865a4ea7631ced749b48fb9</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2022-11-30T01:02:34</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <filter id="filter0" out="00:00:02.100">
+      <property name="argument">ekim433</property>
+      <property name="geometry">382 20 139 28 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter1" out="00:00:02.100">
+      <property name="argument">This is Captain America</property>
+      <property name="geometry">0 274 520 53 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain4" out="00:00:02.100">
+    <property name="length">00:00:02.150</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">8462379a1865a4ea7631ced749b48fb9</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2022-11-30T01:02:34</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <filter id="filter2" out="00:00:02.100">
+      <property name="argument">ekim433</property>
+      <property name="geometry">382 20 139 28 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter3" out="00:00:02.100">
+      <property name="argument">This is Captain America</property>
+      <property name="geometry">0 274 520 53 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain5" out="00:00:02.100">
+    <property name="length">00:00:02.150</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">8462379a1865a4ea7631ced749b48fb9</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2022-11-30T01:02:34</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">a6ba2ae232b26226da2e5b6b63269e53.gif</property>
+    <filter id="filter4" out="00:00:00.550">
+      <property name="argument">ekim433</property>
+      <property name="geometry">382 20 139 28 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter5" out="00:00:00.550">
+      <property name="argument">This is Captain America</property>
+      <property name="geometry">0 274 520 53 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.950">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/PZk6h9Us87vSgUo7DB5gZn.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-11-30T01:13:57</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">fd25af4804aecfbe8543fb0ae5252f76</property>
+    <property name="shotcut:caption">PZk6h9Us87vSgUo7DB5gZn.jpg</property>
+    <property name="ignore_points">0</property>
+    <filter id="filter6" out="00:00:04.950">
+      <property name="argument">Remember the time he tried to lift Thor's Mjolnir?</property>
+      <property name="geometry">1 9 520 331 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter7" out="00:00:04.950">
+      <property name="start">1</property>
+      <property name="level">00:00:03.700=1;00:00:04.950=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.300</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter8" out="00:00:04.950">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.950=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.950">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/maxresdefault.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-11-30T01:02:29</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">90c4371b6b92f97145b8e1f4ee2f9299</property>
+    <property name="shotcut:caption">maxresdefault.jpg</property>
+    <property name="ignore_points">0</property>
+    <filter id="filter9" out="00:00:04.950">
+      <property name="start">1</property>
+      <property name="level">00:00:03.950=1;00:00:04.950=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.050</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter10" out="00:00:04.950">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.950=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <chain id="chain6" out="00:00:01.450">
+    <property name="length">00:00:01.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">adc17b9f8572ab8747d0d358530ef825</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <filter id="filter11" out="00:00:01.450">
+      <property name="argument">ez lol</property>
+      <property name="geometry">279 97 129 60 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain7" out="00:00:01.450">
+    <property name="length">00:00:01.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">adc17b9f8572ab8747d0d358530ef825</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <filter id="filter12" out="00:00:01.450">
+      <property name="argument">ez lol</property>
+      <property name="geometry">279 97 129 60 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain8" out="00:00:01.450">
+    <property name="length">00:00:01.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">adc17b9f8572ab8747d0d358530ef825</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f634d335a76314470796337684f673d3d2d3833393437373936342e31356633653538376237356564333638333533393939.gif</property>
+    <filter id="filter13" out="00:00:01.450">
+      <property name="argument">ez lol</property>
+      <property name="geometry">279 97 129 60 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">350</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:02.100"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:02.100"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:00.550"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:04.950"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:04.950"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:01.450"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:01.450"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:00:01.450"/>
+  </playlist>
+  <chain id="chain9" out="00:02:03.350">
+    <property name="length">00:02:03.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jerom/Downloads/avengers.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b5c207a46dbbb623cec1d651df46e1ac</property>
+    <property name="shotcut:caption">avengers.mp3</property>
+    <filter id="filter14" out="00:00:19.350">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:18.400=0;00:00:19.350=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain9" in="00:00:00.000" out="00:00:19.350"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.06.23" in="00:00:00.000" out="00:00:19.350">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>

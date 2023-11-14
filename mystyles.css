@@ -1,0 +1,28 @@
+body {
+    background-image: url(images/background.png);
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: 'Trebuchet MS', 'Arial', sans-serif;
+    
+}
+table {
+    background-color: silver;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 24px;
+}
+p {
+    font-size: 20px;
+}
+li {
+    font-size: 20px;
+}
